@@ -47,3 +47,24 @@ h1 {
     background-repeat: no-repeat;
     background-position: right;
 }
+
+.dream-big-right {
+    padding-right: 100px;
+}
+
+.experience-area {
+    background-image: url('images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.box-shadow {
+    border-radius: 5px;
+    border-left: 10px solid;
+    border-image: linear-gradient(to bottom,
+            blue,
+            rgb(171, 188, 250)) 1 100%;
+    ;
+    margin: 40px;
+    box-shadow: 10px 10px 20px rgb(245, 185, 163);
+}
