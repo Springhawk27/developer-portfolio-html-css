@@ -61,10 +61,26 @@ h1 {
 .box-shadow {
     border-radius: 5px;
     border-left: 10px solid;
+    margin: 40px;
+    box-shadow: 10px 10px 20px rgb(245, 185, 163);
+}
+
+#full-stack-developer {
+
+    border-image: linear-gradient(to bottom,
+            rgb(255, 0, 0),
+            rgb(252, 140, 148)) 1 100%;
+    ;
+}
+
+#baby-developer {
+
     border-image: linear-gradient(to bottom,
             blue,
             rgb(171, 188, 250)) 1 100%;
     ;
-    margin: 40px;
-    box-shadow: 10px 10px 20px rgb(245, 185, 163);
+}
+
+footer p {
+    text-align: center;
 }
