@@ -3,8 +3,13 @@ body {
     margin: 0;
 }
 
-.top-banner {
+.container {
     display: flex;
+    margin-bottom: 100px;
+
+}
+
+.top-banner {
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 }
@@ -35,4 +40,10 @@ h1 {
     padding: 10px 40px;
     border-radius: 8px;
     background-image: linear-gradient(to right, orangered, rgb(248, 118, 71));
+}
+
+.dream-big {
+    background-image: url('images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
 }
